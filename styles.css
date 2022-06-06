@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #ac6597;
+  display: flex;
+  padding-top: 5rem;
+  justify-content: center;
+  overflow: hidden;
+  margin: 0;
+}
+
+.row1 {
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+
+.row {
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.col-header {
+  width: 150px;
+  box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+  border-radius: 20px;
+  text-align: center;
+  text-decoration-color: burlywood;
+  padding: 0.8rem 1rem;
+  color: #fff;
+}
+
+.col-header1 {
+  width: 150px;
+  min-height: 160px;
+  box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+  border-radius: 20px;
+  padding: 0.8rem 1rem;
+  color: #fff;
+}
+
+.item {
+  width: 150px;
+  height: 100px;
+  border: 1px solid #eee;
+  box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+  border-radius: 20px;
+  background-image: url('http://uploads.scratch.mit.edu/get_image/gallery/3514815_200x130.png');
+}
+
+.item:active {
+  cursor: grabbing;
+}
+
+.placeholder {
+  width: 150px;
+  height: 66px;
+}
+
+.start {
+  background: linear-gradient(90deg, #ff85e4 0%, #229efd 179.25%);
+}
+
+.progress {
+  background: linear-gradient(90deg, #ff85e4 0%, #229efd 179.25%);
+}
+
+.done {
+  background: linear-gradient(90deg, #ff85e4 0%, #229efd 179.25%);
+}
+
+.start1 {
+  background-image: url('https://rutab.net/b/uploads/topics/preview/00/00/48/45/fac7d7f592_330crop.png');
+
+}
+
+.progress1 {
+  background-image: url('https://www.kino-teatr.ru/acter/photo/8/9/80698/pv_988155.jpg');
+}
+
+.done1 {
+  background-image: url('https://recenzent.com.ua/wp-content/uploads/2015/06/003-Kung-Fury-review-photo-screen-film-full-recenzent-300x169.jpg');
+}
+
+.hold {
+
+  border: 5px solid #eee;
+}
+
+.hide {
+  display: none;
+}
+
+.hovered {
+  border-top: 2px solid #8ed7ed;
+}
